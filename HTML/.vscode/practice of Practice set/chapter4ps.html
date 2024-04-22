@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for travelling to America</title>
+</head>
+<body>
+    <div>
+        <h1>Form for Travelling to America</h1>
+        <form action="travel.php">
+            <input type="text" placeholder="Enter your name">
+            <br>            <br>
+            <input type="text" placeholder="Enter your Phone number or Whatsapp number" aria-colspan="15" aria-rowcount="3"><br><br>
+            <input type="email" placeholder="Enter your e-mail address" aria-colspan="20" aria-rowspan="2"><br><br>
+            <input type="password" placeholder="Enter password" aria-colspan="20" aria-rowspan="2"><br><br>
+            <h2>Gender</h2>
+            <label for="Male">
+                <input type="radio" value="Male" name="Gender" id="Male">Male
+            </label>
+            <label for="Female">
+                <input type="radio" value="Female" name="Gender" id="Female">Female
+            </label>
+            <br>
+            <h2>Traveling Vehicle</h2>
+            <label for="Aeroplane">
+                <input type="radio" value="Aeroplane" name="vehicle" id="Aeroplane">Aeroplane            
+            </label>      
+            <label for="Ship">
+                <input type="radio" value="Ship" name="vehicle" id="Ship">Ship
+            </label><br>
+            <input type="number" placeholder="Age" aria-colspan="5">
+        </form>
+    </div>
+</body>
+</html>
